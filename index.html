@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>MyWebsite</title>
+	<meta charset="utf-8" />
+	<style type="text/css">
+	  #web1{
+	  	color:pink;
+		text-decoration:blink;
+	  }
+	  .wrong{
+	    font-size:12px;
+		color:red;
+	  }
+	</style>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css"/>
+	<script src="./js/reginster.js" type="text/javascript"></script>
+  </head>
+  <body onload="init()">
+
+    <h1>My Website</h1><br/>
+	<h1>Hello World!</h1>
+	<p id="font1">这是个Font</p><br/>
+	<a id="web1" href="http://www.baidu.com" target="_blank">点我到百度</a>
+	
+	<!--
+	<video height="250px" src="./resources/ikun.mp4" controls="controls"></video>
+	-->
+	<audio src="./resources/battleforglory.flac" controls="controls">music</audio><br/>
+	<video src="https://vdse.bdstatic.com//192d9a98d782d9c74c96f09db9378d93.mp4" controls autoplay>奇怪的网站</video>
+	<form action="localhost:8099" method="post">
+	  <input type="textfield" id="tf1" onblur="blur();"/>
+	  <input type="button" id="bt1" onclick="changeColor();" value="RUN"/>
+	  <input type="submit" id="submit1" value="submit" disabled/>
+	</form>
+    <hr color="red"/>
+    <h1 color="yellow">注册测试</h1><br/>
+	<form action="" method="get">
+	  <font>账号：</font>
+	  <input type="text" id="registerAccount" name="act" onblur="myBlur()"/>
+	  <span id="accountError" class="wrong"></span><br/>
+	  <font>密码：</font>
+	  <input type="password" id="registerPassword" name="pd" onblur="myBlur()"/>
+	  <span id="passwordError" class="wrong"></span><br/>
+	  <input type="password" id="rPwAgain" onblur="myBlur()"/>
+	  <input type="submit" value="注册" disabled/><br/>
+	  <input type="button" value="点我" onclick=""/>
+	</form>
+	<p>要求如下图所示</p>
+	<img src="./resources/task1.png" alt="?诶我文件呢"/>
+  </body>
+  <script src="./js/scripts.js" type="text/javascript"></script>
+</html>		
