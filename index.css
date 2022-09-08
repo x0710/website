@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body {
+	background-repeat: no-repeat;
+	background-image: url('loveIcon.jpeg');
+}
+p,.forTime {
+	font-family: 仿宋;
+	font-size: 2em;
+	text-indent: 2em;
+	line-height: 4em;
+}
+.howLong {
+	line-height: 3em;
+	color:white;
+}
+.navUl > li {
+	display: inline-block;
+	padding-right: 0.5em;
+	padding: 0px 2em;
+	list-style: none;
+	line-height: 50px;
+	float: right;
+	background-color: #ffffff20;
+	height: 50px;
+	color: black;
+	font-size: 1.5em
+}
+.navUl > li:hover {
+	background-color: #99999999;
+}
+.navUl > li > a {
+	color: black;
+}
+.nav {
+	height: 50px;
+}
+.pic {
+	background-position: 0 20px;
+	background-repeat: repeat-x;
+	width: 200px;
+	height: 150px;
+}
+#time {
+	color: hotpink;
+	font-size: 3em;
+	font-family: 微软雅黑;
+}
